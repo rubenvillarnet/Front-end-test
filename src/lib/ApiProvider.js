@@ -9,13 +9,13 @@ export default class ApiProvider{
 
   listAlbums(){
     return this.service.get('/')
-    .then(response => response)
+    .then(response => response.data)
     .catch(error => error)
   }
 
   listPhotos(id){
     return this.service.get(`${id}/photos`)
-    .then(response => response)
+    .then(response => response.data)
     .catch(error => error)
   }
 }
