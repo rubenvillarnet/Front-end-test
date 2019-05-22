@@ -12,3 +12,6 @@ In order to install all dependencies, and then:
 
 To run the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Code deployment
+You can visit the code deployed here [https://rubenvillarnet.github.io/Front-end-test/](https://rubenvillarnet.github.io/Front-end-test/)
